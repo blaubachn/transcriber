@@ -31,9 +31,9 @@ There are three runnable files in the src folder. The settings_cli.py file will 
 #### This application generates a config file for you to add your plain text credentials to, so **DO NOT** commit the config file to a public repository!!!
 
 ```
-# In powershell/cmd/terminal, run the following in the src folder of the repository
-python3 run.py
-python3 settings_cli.py
-python3 settings_gui.py
+# In powershell/cmd/terminal, run the following:
+python3 /path/to/file/run.py
+python3 /path/to/file/settings_cli.py
+python3 /path/to/file/settings_gui.py
 ```
 
