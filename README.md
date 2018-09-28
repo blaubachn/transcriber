@@ -5,7 +5,7 @@
 
 This audio transcriber built on IBM's [watson speech to text](https://www.ibm.com/watson/services/speech-to-text/) service automatically transcribes audio files added to a specified folder
 
-## Getting the project running
+## Setup
 
 #### Python Installation
 
@@ -37,3 +37,6 @@ python3 /path/to/file/settings_cli.py
 python3 /path/to/file/settings_gui.py
 ```
 
+## License
+
+[MIT](https://github.com/blaubachn/transcriber/blob/master/LICENSE.md)
