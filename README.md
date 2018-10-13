@@ -17,12 +17,12 @@ Do not distribute it without complying with the license.
 
 ## Setup
 
-This project requires the installation of python, pip and tkinter for python3. On Mac and Windows, the installer at https://www.python.org/ includes tkinter and pip by default. On Linux, python is likely preinstalled, but you may need to install the python3-pip and python3-tk/python3-tkinter packages.
+This project requires the installation of python and pip for python3. On Mac and Windows, the installer at https://www.python.org/ includes pip by default. On Linux, python is likely preinstalled, but you may need to install the python3-pip package.
 
 ```
 git clone https://github.com/blaubachn/transcriber.git
 cd transcriber
-python3 -m pip install --upgrade "watson-developer-cloud>=1.4.0"
+python3 -m pip install --upgrade "watson-developer-cloud>=2.2.2"
 python3 src/run.py
 ```
 

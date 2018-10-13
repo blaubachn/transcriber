@@ -1,12 +1,13 @@
 from configparser import ConfigParser
-from os.path import isfile
+from os.path import isfile, expanduser
 
 class Configuration_Manager:
     def __init__(self, config_file):
         self.config_file = config_file
-
-    def exists(self):
-        return isfile(self.config_file)
+        if not isfile(self.config_file):
+            print('Config file not setup')
+            print('Please change the default values in the settings editor')
+            self.set_config_defaults()
 
     def get_config(self):
         config = ConfigParser()
@@ -48,6 +49,10 @@ class Configuration_Manager:
     def update_text_directory(self, value):
         self.update_config('directories', 'text', value)
 
+    def set_config_defaults(self):
+        self.set_config('<username>', '<password>', expanduser("~"), expanduser("~"))
+
     def print_config(self):
+        print('Current Configuration:')
         for key, value in self.get_config().items(): 
             print(key.ljust(9) + ': ' + value)

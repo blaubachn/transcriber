@@ -13,6 +13,6 @@ class Transcriber:
                 audio = speech_file, 
                 content_type = self.file_manager.content_type(file)
             )
-            transcript = "".join([result["alternatives"][0]["transcript"] for result in transcript_data["results"]])
+            transcript = "".join([result["alternatives"][0]["transcript"] for result in transcript_data.result["results"]])
             self.file_manager.write_transcription_to_file(file, transcript)
         
