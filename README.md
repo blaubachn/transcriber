@@ -27,4 +27,4 @@ python3 src/run.py
 
 ## License
 
-[MIT](https://gitlab.com/blaubachn/transcriber/blob/master/LICENSE.md)
+[MIT](https://gitlab.com/blaubachn/transcriber/blob/master/LICENSE)
