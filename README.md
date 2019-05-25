@@ -19,7 +19,7 @@ Do not distribute it without complying with the license.
 This project requires the installation of python and pip for python3. On Mac and Windows, the installer at https://www.python.org/ includes pip by default. On Linux, python is likely preinstalled, but you may need to install the python3-pip package.
 
 ```
-git clone https://gitlab.com/blaubachn/transcriber.git
+git clone https://github.com/blaubachn/transcriber.git
 cd transcriber
 python3 -m pip install --upgrade "watson-developer-cloud>=2.2.2"
 python3 src/run.py
@@ -27,4 +27,4 @@ python3 src/run.py
 
 ## License
 
-[MIT](https://gitlab.com/blaubachn/transcriber/blob/master/LICENSE)
+[MIT](https://github.com/blaubachn/transcriber/blob/master/LICENSE)
