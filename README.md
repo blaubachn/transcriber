@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This audio transcriber built on IBM's [watson speech to text](https://www.ibm.com/watson/services/speech-to-text/) service automatically transcribes audio files added to a specified folder
+This audio transcriber is a daemon built on IBM's [watson speech to text](https://www.ibm.com/watson/services/speech-to-text/) service automatically transcribes audio files added to a specified folder. It has only a command line interface.
 
 ## Notices
 
@@ -24,6 +24,15 @@ cd transcriber
 python3 -m pip install --upgrade "watson-developer-cloud>=2.2.2"
 python3 src/run.py
 ```
+
+## Dependencies
+
+* [Python](https://www.python.org/)
+* [IBM Speech to Text](https://www.ibm.com/watson/services/speech-to-text/)
+
+## Contributors
+
+* [Nathan Blaubach](https://github.com/blaubachn)
 
 ## License
 
