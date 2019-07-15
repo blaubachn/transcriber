@@ -16,7 +16,8 @@ Do not distribute it without complying with the license.
 
 ## Setup
 
-This project requires the installation of python and pip for python3. On Mac and Windows, the installer at https://www.python.org/ includes pip by default. On Linux, python is likely preinstalled, but you may need to install the python3-pip package.
+Install [git](https://git-scm.com/downloads), [Python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installing/)
+Check out this repository and dependencies using the following commands in your terminal:
 
 ```
 git clone https://github.com/blaubachn/transcriber.git
