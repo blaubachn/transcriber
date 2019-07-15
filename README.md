@@ -16,8 +16,8 @@ Do not distribute it without complying with the license.
 
 ## Setup
 
-Install [git](https://git-scm.com/downloads), [Python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installing/)
-Check out this repository and dependencies using the following commands in your terminal:
+1. Install [git](https://git-scm.com/downloads), [Python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installing/)
+2. Check out this repository and dependencies using the following commands in your terminal:
 
 ```
 git clone https://github.com/blaubachn/transcriber.git
