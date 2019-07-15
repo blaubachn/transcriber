@@ -21,7 +21,7 @@ This project requires the installation of python and pip for python3. On Mac and
 ```
 git clone https://github.com/blaubachn/transcriber.git
 cd transcriber
-python3 -m pip install --upgrade "watson-developer-cloud>=2.2.2"
+python3 -m pip install --upgrade -r requirements.txt
 python3 src/run.py
 ```
 
