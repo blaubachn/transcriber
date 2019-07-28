@@ -20,7 +20,7 @@ Do not distribute it without complying with the license.
 2. Check out this repository and dependencies using the following commands in your terminal:
 
 ```
-git clone https://github.com/blaubachn/transcriber.git
+git clone https://github.com/nathanblaubach/transcriber.git
 cd transcriber
 python3 -m pip install --upgrade -r requirements.txt
 python3 src/run.py
