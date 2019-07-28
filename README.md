@@ -33,8 +33,8 @@ python3 src/run.py
 
 ## Contributors
 
-* [Nathan Blaubach](https://github.com/blaubachn)
+* [Nathan Blaubach](https://github.com/nathanblaubach)
 
 ## License
 
-[MIT](https://github.com/blaubachn/transcriber/blob/master/LICENSE)
+[MIT](https://github.com/nathanblaubach/transcriber/blob/master/LICENSE)
